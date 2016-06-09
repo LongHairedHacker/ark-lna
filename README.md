@@ -19,12 +19,12 @@ Parts
 |-------------------|-------------------|
 | Trimmer 3-10pf	| TZC3R100A110R00 	|
 | Inductor 330nH	| MLF2012DR33JTD25	|
-| 33pF 0805         |                   |
-| Inductor 10uH		|                   |
-| 91 Ohm 0603       |                   |
-| 100pF 0805        |                   |
-| 10uF              |                   |
-| 100nF 0603        |                   |
+| 33pF 0805         | CL21C330JBANNNC   |
+| Inductor 10uH		| LBR2012T100K      |
+| 91 Ohm 0603       | RC0603JR-0791RL   |
+| 100pF 0805        | C0805C101J5GACTU  |
+| 10uF              | UUT1V100MCL1GS    |
+| 100nF 0603        | CL03A104KQ3NNNH   |
 | Voltage regulator | LM1117-5          |
 | amplifier         | MAR-6 / MAR-8     |
 | case              | TEKO 371          |
