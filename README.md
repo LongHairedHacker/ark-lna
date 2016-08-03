@@ -15,19 +15,19 @@ but might be useful for other VHF transmissions as well.
 Parts
 =====
 
-| Part				| Manufacturer Part	|
-|-------------------|-------------------|
-| Trimmer 3-10pf	| TZC3R100A110R00 	|
-| Inductor 330nH	| MLF2012DR33JTD25	|
-| 33pF 0805         | CL21C330JBANNNC   |
-| Inductor 10uH		| LBR2012T100K      |
-| 91 Ohm 0603       | RC0603JR-0791RL   |
-| 100pF 0805        | C0805C101J5GACTU  |
-| 10uF              | UUT1V100MCL1GS    |
-| 100nF 0603        | CL03A104KQ3NNNH   |
-| Voltage regulator | LM1117-5          |
-| amplifier         | MAR-6 / MAR-8     |
-| case              | TEKO 371          |
+| Count | Part				| Manufacturer Part	|
+|-------|-------------------|-------------------|
+|  2    | Trimmer 3-10pf	| TZC3R100A110R00 	|
+|  2    | Inductor 330nH	| MLF2012DR33JTD25	|
+|  1    | 33pF 0805         | CL21C330JBANNNC   |
+|  1    | Inductor 10uH		| LBR2012T100K      |
+|  1    | 91 Ohm 0603       | RC0603JR-0791RL   |
+|  1    | 100pF 0805        | C0805C101J5GACTU  |
+|  2    | 10uF              | UUT1V100MCL1GS    |
+|  2    | 100nF 0603        | CL03A104KQ3NNNH   |
+|  1    | Voltage regulator | LM1117-5          |
+|  1    | amplifier         | MAR-6 / MAR-8     |
+|  1    | case              | TEKO 371          |
 
 
 Notes
