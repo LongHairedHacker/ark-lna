@@ -1,0 +1,251 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L device:CTRIM C3
+U 1 1 5A90853C
+P 5050 3950
+F 0 "C3" H 5166 3996 50  0000 L CNN
+F 1 "2-6pF" H 5166 3905 50  0000 L CNN
+F 2 "Capacitors_SMD:C_Trimmer_Murata_TZC3" H 5050 3950 50  0001 C CNN
+F 3 "" H 5050 3950 50  0001 C CNN
+	1    5050 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:C C2
+U 1 1 5A908668
+P 4650 3950
+F 0 "C2" H 4764 3996 50  0000 L CNN
+F 1 "10pF" H 4764 3905 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4688 3800 50  0001 C CNN
+F 3 "" H 4650 3950 50  0001 C CNN
+	1    4650 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L device:L L1
+U 1 1 5A9089AA
+P 4250 3950
+F 0 "L1" H 4302 3996 50  0000 L CNN
+F 1 "64nH" H 4302 3905 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4250 3950 50  0001 C CNN
+F 3 "" H 4250 3950 50  0001 C CNN
+	1    4250 3950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 3700 5050 3800
+Wire Wire Line
+	4250 3700 4650 3700
+Wire Wire Line
+	4650 3800 4650 3700
+Connection ~ 4650 3700
+Wire Wire Line
+	4650 3700 5050 3700
+Wire Wire Line
+	4250 3800 4250 3700
+Wire Wire Line
+	4250 4100 4250 4200
+Wire Wire Line
+	4250 4200 4650 4200
+Wire Wire Line
+	5050 4200 5050 4100
+Wire Wire Line
+	4650 4100 4650 4200
+Connection ~ 4650 4200
+Wire Wire Line
+	4650 4200 5050 4200
+$Comp
+L conn:Conn_Coaxial J1
+U 1 1 5A908D1D
+P 2600 3250
+F 0 "J1" H 2700 3226 50  0000 L CNN
+F 1 "Conn_Coaxial" H 2700 3135 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 2600 3250 50  0001 C CNN
+F 3 "" H 2600 3250 50  0001 C CNN
+	1    2600 3250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 3700 4650 3250
+Wire Wire Line
+	4650 3250 5550 3250
+$Comp
+L power:GND #PWR01
+U 1 1 5A90906A
+P 4650 4650
+F 0 "#PWR01" H 4650 4400 50  0001 C CNN
+F 1 "GND" H 4655 4477 50  0000 C CNN
+F 2 "" H 4650 4650 50  0001 C CNN
+F 3 "" H 4650 4650 50  0001 C CNN
+	1    4650 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 4200 4650 4650
+$Comp
+L device:C C4
+U 1 1 5A90920D
+P 5700 3250
+F 0 "C4" V 5448 3250 50  0000 C CNN
+F 1 "1pF" V 5539 3250 50  0000 C CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 5738 3100 50  0001 C CNN
+F 3 "" H 5700 3250 50  0001 C CNN
+	1    5700 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4650 3250 3750 3250
+$Comp
+L device:C C1
+U 1 1 5A9093E9
+P 3600 3250
+F 0 "C1" V 3348 3250 50  0000 C CNN
+F 1 "4.7pF" V 3439 3250 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3638 3100 50  0001 C CNN
+F 3 "" H 3600 3250 50  0001 C CNN
+	1    3600 3250
+	0    -1   1    0   
+$EndComp
+Connection ~ 4650 3250
+$Comp
+L device:CTRIM C6
+U 1 1 5A909D7C
+P 7150 3950
+F 0 "C6" H 7266 3996 50  0000 L CNN
+F 1 "2-6pF" H 7266 3905 50  0000 L CNN
+F 2 "Capacitors_SMD:C_Trimmer_Murata_TZC3" H 7150 3950 50  0001 C CNN
+F 3 "" H 7150 3950 50  0001 C CNN
+	1    7150 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:C C5
+U 1 1 5A909D83
+P 6750 3950
+F 0 "C5" H 6864 3996 50  0000 L CNN
+F 1 "10pF" H 6864 3905 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6788 3800 50  0001 C CNN
+F 3 "" H 6750 3950 50  0001 C CNN
+	1    6750 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L device:L L2
+U 1 1 5A909D8A
+P 6350 3950
+F 0 "L2" H 6402 3996 50  0000 L CNN
+F 1 "64nH" H 6402 3905 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6350 3950 50  0001 C CNN
+F 3 "" H 6350 3950 50  0001 C CNN
+	1    6350 3950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 3700 7150 3800
+Wire Wire Line
+	6350 3700 6750 3700
+Wire Wire Line
+	6750 3800 6750 3700
+Connection ~ 6750 3700
+Wire Wire Line
+	6750 3700 7150 3700
+Wire Wire Line
+	6350 3800 6350 3700
+Wire Wire Line
+	6350 4100 6350 4200
+Wire Wire Line
+	6350 4200 6750 4200
+Wire Wire Line
+	7150 4200 7150 4100
+Wire Wire Line
+	6750 4100 6750 4200
+Connection ~ 6750 4200
+Wire Wire Line
+	6750 4200 7150 4200
+Wire Wire Line
+	6750 3700 6750 3250
+Wire Wire Line
+	6750 3250 7650 3250
+$Comp
+L power:GND #PWR02
+U 1 1 5A909D9F
+P 6750 4650
+F 0 "#PWR02" H 6750 4400 50  0001 C CNN
+F 1 "GND" H 6755 4477 50  0000 C CNN
+F 2 "" H 6750 4650 50  0001 C CNN
+F 3 "" H 6750 4650 50  0001 C CNN
+	1    6750 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 4200 6750 4650
+$Comp
+L device:C C7
+U 1 1 5A909DA6
+P 7800 3250
+F 0 "C7" V 7548 3250 50  0000 C CNN
+F 1 "4.7pF" V 7639 3250 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7838 3100 50  0001 C CNN
+F 3 "" H 7800 3250 50  0001 C CNN
+	1    7800 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6750 3250 5850 3250
+Connection ~ 6750 3250
+Wire Wire Line
+	2750 3250 3450 3250
+Wire Wire Line
+	2600 3450 2600 4650
+$Comp
+L power:GND #PWR03
+U 1 1 5A90C654
+P 2600 4650
+F 0 "#PWR03" H 2600 4400 50  0001 C CNN
+F 1 "GND" H 2605 4477 50  0000 C CNN
+F 2 "" H 2600 4650 50  0001 C CNN
+F 3 "" H 2600 4650 50  0001 C CNN
+	1    2600 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L conn:Conn_Coaxial J2
+U 1 1 5A90C91C
+P 8800 3250
+F 0 "J2" H 8900 3226 50  0000 L CNN
+F 1 "Conn_Coaxial" H 8900 3135 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 8800 3250 50  0001 C CNN
+F 3 "" H 8800 3250 50  0001 C CNN
+	1    8800 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 3250 7950 3250
+Wire Wire Line
+	8800 3450 8800 4650
+$Comp
+L power:GND #PWR04
+U 1 1 5A90C925
+P 8800 4650
+F 0 "#PWR04" H 8800 4400 50  0001 C CNN
+F 1 "GND" H 8805 4477 50  0000 C CNN
+F 2 "" H 8800 4650 50  0001 C CNN
+F 3 "" H 8800 4650 50  0001 C CNN
+	1    8800 4650
+	-1   0    0    -1  
+$EndComp
+$EndSCHEMATC
